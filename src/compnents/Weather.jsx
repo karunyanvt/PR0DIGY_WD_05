@@ -39,7 +39,7 @@ const Weather = () => {
             alert("Enter the city name")
             return;
         }
-        const url= `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${API_KEY}`
+        const url= `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=8b61d27d3d97c7fce49f6e665ebb4db5`
         
         try{
             const response= await fetch(url);
